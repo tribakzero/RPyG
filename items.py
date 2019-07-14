@@ -13,4 +13,5 @@ def addItems(items):
   for item in items:
     if item not in inventory:
       inventory[item] = 1
+  showItems()
 

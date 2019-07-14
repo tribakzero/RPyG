@@ -5,5 +5,4 @@ print("RPG")
 print()
 
 showItems()
-triggerStory("loot")
-showItems()
+triggerStory("dragon")
