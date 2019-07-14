@@ -1,8 +1,9 @@
 from items import showItems, inventory, addItems
+from story import triggerStory
 
 print("RPG")
 print()
 
-showItems(inventory)
-addItems(inventory, ['map'])
-showItems(inventory)
+showItems()
+triggerStory("loot")
+showItems()
